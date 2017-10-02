@@ -36,7 +36,7 @@ export default Component.extend({
 
   // Views
   defaultView: 'month',
-
+  views: {},
   // Agenda Options
   allDaySlot: true,
   allDayText: 'all-day',
@@ -99,6 +99,7 @@ export default Component.extend({
 
       // General Display
       header: this.get('header'),
+      views: this.get('views'),
       customButtons: this.get('customButtons'),
       theme: this.get('theme'),
       firstDay: this.get('firstDay'),
