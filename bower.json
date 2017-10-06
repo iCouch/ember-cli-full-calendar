@@ -1,7 +1,0 @@
-{
-  "name": "ember-cli-full-calendar",
-  "dependencies": {},
-  "devDependencies": {
-    "fullcalendar": "^3.2.0"
-  }
-}
